@@ -1,6 +1,13 @@
+:root {
+   background-color: lightcoral;
+   --padding: 20px;
+   --color: maroon; 
+}
+
+
 
 nav {
-    background-color: darkblue;
+    background-color: var(--color);
     padding: 10px;
  }
 
@@ -11,7 +18,7 @@ nav {
  }
 
  h1 {
-    color: darkblue;
+    color: var(--color);
  }
 
  img {
@@ -31,7 +38,7 @@ nav {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
-    background-color: #eee;
+    background-color: var(--background-color);
     color: #333;
     text-align: center;
  }
