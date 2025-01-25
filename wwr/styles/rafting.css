@@ -1,0 +1,26 @@
+:root {
+    background-color: #c0e2f2; 
+    --padding: 20px;
+    --color1: #bfced2; 
+    --color2: #9cd1f4;
+    --color3: #566448; 
+ }
+
+.hero {
+    color: var(--color3);
+
+}
+
+.heroh1 {
+    color: var(--color3);
+    
+}
+
+.logo-box {
+    color: var(--color1);
+}
+
+.product-gallery {
+    color: var(--color2);
+}
+
