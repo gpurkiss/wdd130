@@ -1,0 +1,30 @@
+/*JUSTIFY-CONTENT
+#pond {
+    display: flex;
+    flex-start: items aline to the left side of the container
+    flex end: items aline to the right side of the cantainer 
+    center: items aline to the center
+    space-between: items display with equial spacing 
+    space-around: items display with equal spacing 
+
+ALIGN-ITEMS
+#pond {
+    display: flex; 
+    flex-start: items align to the top of the container 
+    flex-end: items align to the bottem of the container 
+    center: aligh at the vertical center 
+    baseline: items are stretched to fit the container 
+
+FLEX DIRECTION
+#pond {
+    display: flex;
+    row: Items are placed the same as the text direction.
+    row-reverse: Items are placed opposite to the text direction.
+    column: Items are placed top to bottom.
+    column-reverse: Items are placed bottom to top.
+    
+<integer> applies order property to individual items (-2,-1,0,1,2)
+*/
+
+
+
