@@ -73,20 +73,30 @@ header, main, footer {
     width: 3em;
 }
 
-/*.logo-box {
-    color: var(--color1);
+
+
+.contactus h1 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
 }
 
-.product-gallery {
-    color: #9cd1f4;
+.contactform {
+    grid-row: 2/4;
+    grid-column: 2/6;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: space-around;
+.address {
+    grid-column: 7/12;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
 }
 
-.navigation li {
-	flex: 1 1 auto;
+
+.employees {
+    grid-column: 1/-1;
+}
+.employee {
+    margin: 0;
 }
